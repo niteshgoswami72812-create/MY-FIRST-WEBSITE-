@@ -1,0 +1,64 @@
+ body {
+            font-family: Arial, sans-serif;
+          background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg);
+          background-size: 100%;
+           
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            
+           /* border: 1px solid black; */
+           border-radius: 1px;
+            color: white;
+            padding: 20px 0;
+            margin: 0;
+        }
+
+        h2 {
+           
+            color: white;
+            margin: 20px 0;
+        }
+
+        .pricing-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .pricing-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px;
+            display: inline-block;
+            width: 200px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .pricing-card h3 {
+            color: #2c3e50;
+        }
+
+        .price {
+            font-size: 22px;
+            color: #e74c3c;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1f6391;
+        }

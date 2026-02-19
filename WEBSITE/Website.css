@@ -42,12 +42,13 @@
 
 }
 
-#navbar nav ul li a:hover
-{
-    color: white;
-    font-size: 20px;
+#navbar nav ul li a:hover{
 
+    color: #ff2aa3;
+    font-size: 20px;
 }
+
+
 
 
 #navbar button 
@@ -61,6 +62,22 @@
 
 
 }
+
+
+#icons i {
+    margin-right: 55px;
+    color: black;
+}
+
+#icons i:hover {
+    
+    color: white;
+     /* font-size: 20px; */
+}
+
+
+
+
 
 
 /* main code starts frome here  */
@@ -77,24 +94,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
+
+ #firstpage h1{
+    text-align: center;
+     font-weight:bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+
+#firstpage h1 div button{
+    background-color: #dc8fbe;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    margin-top: 20px;
     
 }
 
-#firstpage h1{
-    color: white;
-} 
+#firstpage h1 div button:hover{
+            background: #c676a4;
+        }
 
-#firstpage button 
-{
-   
-    background-color:   #dc8fbe;
-    border-radius: 20px;
-    border-color: whitesmoke;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 20px;
-
-
+#firstpage h1 h6  {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
 }
-
-

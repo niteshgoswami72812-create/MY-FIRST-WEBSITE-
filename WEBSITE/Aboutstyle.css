@@ -34,7 +34,9 @@
         }
 
         .card{
-            background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg);
+            /* background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg); */
+            background-color: white;
+            border: solid black;
             width: 250px;
             padding: 25px;
             border-radius: 10px;

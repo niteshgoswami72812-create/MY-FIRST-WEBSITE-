@@ -24,12 +24,14 @@
         }
 
         .pricing-container {
+            
             width: 90%;
             max-width: 1000px;
             margin: 30px auto;
         }
 
         .pricing-card {
+             border: solid black;
             background-color: white;
             border-radius: 8px;
             padding: 20px;
@@ -51,7 +53,7 @@
         }
 
         button {
-            background-color: #2980b9;
+            background-color: red;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -60,5 +62,5 @@
         }
 
         button:hover {
-            background-color: #1f6391;
+            background-color: black;
         }

@@ -1,359 +1,388 @@
  *
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    
-}
+ {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+ }
 
 
-#navbar
-{
-    width: 100%;
-    height: 90px;
-    background-color: blueviolet;
-    border: 1px solid transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-   position: absolute;
-}
+ #navbar
+ {
+ width: 100%;
+ height: 90px;
+ background-color: blueviolet;
+ border: 1px solid transparent;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: absolute;
+ }
 
-#navbar nav ul
-{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-   
-
-}
-
-#navbar nav ul li a
-{
-    text-decoration: none;
-    text-transform:capitalize;
-    font-size: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    color: white;
-    transition: all 2s ease;
-}
-
-#navbar nav ul li a:hover
-{
-    color: black;
-    /* text-shadow: 10px 10px 10px 10px black; */
-    transform: translate() scale() rotate(360deg);
-    border-radius: 50px;
-}
+ #navbar img
+ {
+    border: 1px solid transparent;    
+ }
+ 
 
 
-#icons i
-{
-    margin-right: 55px;
-    color: black;
-}
+ #navbar nav ul
+ {
+ display: flex;
+ gap: 30px;
+ list-style: none; 
+ }
 
-#icons i:hover 
-{
-     color: white;
-     /* font-size: 20px; */
-}
+ #navbar nav ul li a
+ {
+ text-decoration: none;
+ text-transform:capitalize;
+ font-size: 15px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-style: normal;
+ color: white;
+ transition: all 2s ease;
+ }
+
+ #navbar nav ul li a:hover
+ {
+ color: red;
+  /* text-shadow: 10px 10px 10px 10px black; */
+  /* box-shadow: 10px 10px 10px 10px black; ; */
+  /* transform: rotate(360deg);
+  transform: scale(1.2);
+  transform: translate(100px , 100px); */
+  border-radius: 50px;
+ }
+
+
+ #icons i
+ {
+ margin-right: 55px;
+ color: black;
+ transition: all 2s ease;
+ }
+
+ #icons i:hover 
+ {
+ color: white;
+ /* font-size: 20px; */
+  
+  border-radius: 50px;
+  /* transform: rotate(360deg);
+  transform: scale(1.2);
+  transform: translate(100px , 100px); */
+ }
 
 
 
 
 
 
-/* main code starts frome here  */
+ /* main code starts frome here  */
 
 
  #firstpage
  {
-    width: 100%;
-    height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-image: url(../image/adobe2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: text;
-}
+ width: 100%;
+ height: 100vh;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 25px;
+ color: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ background-image: url(../image/adobe2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-clip: text;
+ }
 
  #firstpage h1
  {
     text-align: center;
      font-weight:bold;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+ } 
 
 
-#firstpage h1 div button
-{
-    background-color: blueviolet;
-    border-radius: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 20px;
-    margin-top: 20px;
-    transition: all 2s ease;
-}
+ #firstpage h1 div button
+ {
+ background-color: blueviolet;
+ border-radius: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 10px 20px;
+ margin-top: 20px;
+ transition: all 2s ease;
+ }
 
-#firstpage h1 div button:hover
-{
- background: rgb(210, 135, 222);
- /* transform: rotate(360deg); */
- /* transform: scale(1.2); */
- /* transform: translate(100px , 100px); */
-}
+ #firstpage h1 div button:hover
+ {
+ background: linear-gradient(to right, #b45fff,#6017f3, #b45fff );
+ /* transform: rotate(360deg);
+ transform: scale(1.2);
+ transform: translate(100px , 100px); */
+ }
 
-#firstpage h1 h6  
-{
-    /* margin-top: 100px; */
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-}
+ #firstpage h1 h6  
+ {
+ /* margin-top: 100px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: lighter;
+ }
 
-/* start the second page  */
+ /* end first page  */
 
-/* #secondpage{ */
+ /* #secondpage{ */
 
-    /* width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg);
-    flex-wrap: wrap;
-    align-items: center;
-     */
-    /* display: flex;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; */
+ /* width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+ background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg);
+ flex-wrap: wrap;
+ align-items: center;
+  */
+ /* display: flex;
+ grid-template-columns: auto auto auto;
+ justify-content: center;
+ align-items: center;
+ gap: 10px; */
     
      
 
-     /* display: grid;
-     gap: 10px;
-     grid-template-columns: repeat(6,400px);
-     overflow: scroll;
-     scrollbar-width: none; */
-/* } */
+  /* display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6,400px);
+  overflow: scroll;
+  scrollbar-width: none; */
+  /* } */
+
+
+/* secondpage start here  */
 
  #secondpage {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 50px;
-    background-color: blueviolet;
-    /* background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg); */
- 
-  
-    
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+ padding: 50px;
+ background-color: rgb(138, 43, 226);
+ /* background-image: url(../image/pexels-veeterzy-114979\ \(1\).jpg); */    
  }
 
+ #secondpage h2
+ {
+    font-size: 20px;
+    color: #aa2bff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ } 
+ 
+ /* #secondpage p
+ {
+    font-family: cursive;
+    color: black;
+ } */
+
+ 
  #card1 {
-    width: 260px;
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    text-align: center;
-    transition: all 2s ease;
+ width: 260px;
+ background: white;
+ border: 2px solid black;
+ border-radius: 15px;
+ overflow: hidden;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+ text-align: center;
+ transition: all 2s ease;
  }
 
  #card1 img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+ width: 100%;
+ height: 250px;
+ object-fit: cover;
  }
 
  #card1:hover
  {
-    box-shadow: 10px 10px 10px 0px black;
-    transform: translate(100px , 0px);
-    /* transform: scale(1.2); */
-    /* transform: rotate(360deg); */
+ box-shadow: 10px 10px 10px 0px black;
+ transform: translate(100px , 0px);
+ /* transform: scale(1.2); */
+ /* transform: rotate(360deg); */
  }
 
  #card2 {
-    width: 260px;
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    text-align: center;
-    transition: all 2s ease;
+ width: 260px;
+ background: white;
+ border: 2px solid black;
+ border-radius: 15px;
+ overflow: hidden;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+ text-align: center;
+ transition: all 2s ease;
  }
 
  #card2:hover
  {
-    box-shadow: 10px 10px 10px 0px black;
-    transform: translate(-100px , 0px);
-    /* transform: scale(1.2); */
-    /* transform: rotate(360deg); */
+ box-shadow: 10px 10px 10px 0px black;
+ transform: translate(-100px , 0px);
+ /* transform: scale(1.2); */
+ /* transform: rotate(360deg); */
  }
 
  #card2 img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+ width: 100%;
+ height: 250px;
+ object-fit: cover;
  }
 
  #card3 {
-    width: 260px;
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    text-align: center;
-    transition: all 2s ease;
+ width: 260px;
+ background: white;
+ border: 2px solid black;
+ border-radius: 15px;
+ overflow: hidden;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+ text-align: center;
+ transition: all 2s ease;
  }
 
  #card3:hover
  {
-    box-shadow: 10px 10px 10px 0px black;
-    transform: translate(100px , 0px);
-    /* transform: scale(1.2); */
-    /* transform: rotate(360deg); */
+ box-shadow: 10px 10px 10px 0px black;
+ transform: translate(100px , 0px);
+ /* transform: scale(1.2); */
+ /* transform: rotate(360deg); */
  }
 
  #card3 img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+ width: 100%;
+ height: 250px;
+ object-fit: cover;
  }
 
  #card4 {
-    width: 260px;
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    text-align: center;
-    transition: all 2s ease;
+ width: 260px;
+ background: white;
+ border: 2px solid black;
+ border-radius: 15px;
+ overflow: hidden;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+ text-align: center;
+ transition: all 2s ease;
  }
 
  #card4:hover
  {
-    box-shadow: 10px 10px 10px 0px black;
-    transform: translate(-100px , 0px);
-    /* transform: scale(1.2); */
-    /* transform: rotate(360deg); */
+ box-shadow: 10px 10px 10px 0px black;
+ transform: translate(-100px , 0px);
+ /* transform: scale(1.2); */
+ /* transform: rotate(360deg); */
  }
 
- #card4 img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+ #card4 img
+ {
+ width: 100%;
+ height: 250px;
+ object-fit: cover;
  }
 
- #content {
-    padding: 20px;
+ #content 
+ {
+ padding: 20px;
  }
 
- #classmode {
-    font-size: 15px;
-    font-style: italic;
-    color: blueviolet;
+.classmode 
+{
+ font-size: 15px;
+ font-family: cursive;
+}
 
+.footer 
+ {
+ display: flex;
+ justify-content: space-around;
+ color: black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 15px 0;
  }
 
- .footer {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 0;
+ .footer div p 
+ {
+ margin: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px;
  }
 
- .footer div h3 {
-    margin: 0;
+ .pink 
+ {
+ background: linear-gradient(to right, #b45fff,#6017f3, #4168db );
  }
 
- .footer div p {
-    margin: 0;
-    font-size: 12px;
+ .orange 
+ {
+ background: linear-gradient(to right, #b45fff,#6017f3, #4168db );
  }
 
- .pink {
-    background: linear-gradient(to right, #ff1010, #aa2bff);
+ .green 
+ {
+ background: linear-gradient(to right, #b45fff,#6017f3, #4168db );
  }
 
- .orange {
-    background: linear-gradient(to right, #f42e49, #54f3ee);
+ .red 
+ {
+ background: linear-gradient(to right, #b45fff,#6017f3, #4168db );
  }
+ /* secondpage end here  */
 
- .green {
-    background: linear-gradient(to right, #f42e49, #e7ff5f);
- }
-
- .red {
-    background: linear-gradient(to right, #f42eb9, #e7ff5f);
- }
-
- #thirdpage{
-    
-   display: flex;
-   justify-content: center;
-   flex-direction:column;
-   align-items: center;
-   width: 100%;
-   border: 2px solid black;
-   height: 100vh; 
-   text-align: center;
-   color: black;
-   background-image: url(../image/adobe1.png);
-   background-size: 100%;
-   
-   
+ /* third page starts here  */
+ #thirdpage
+ { 
+ display: flex;
+ justify-content: center;
+ flex-direction:column;
+ align-items: center;
+ width: 100%;
+ border: 2px solid black;
+ height: 100vh; 
+ text-align: center;
+ color: black;
+ background-image: url(../image/background.png);
+ background-size: 100%; 
  }
 
  #thirdpage h1 
  {
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-image: url(../image/text.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: text;
-    font-weight: bolder;
+ width: 100%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 55px;
+ color: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ background-image: url(../image/adobe2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-clip: text;
+ font-weight: bolder;
  } 
 
   #thirdpage p
  {
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-image: url(../image/text.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: text;
-   
-    
+ width: 100%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+background-image: url(../image/adobe2.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-clip: text;   
  } 
-
- 
- 
- 
+ /* thid page ends here  */
+  
 
 
 

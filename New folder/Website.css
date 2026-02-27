@@ -102,7 +102,7 @@ max-width:100%;
  display: flex;
  justify-content: center;
  align-items: center; 
- background-image: url(../image/text.jpg);
+ background-image: url(./text.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  background-clip: text;
@@ -378,7 +378,7 @@ button{
  height: 100vh; 
  text-align: center;
  color: black;
- background-image: url(../image/background.png);
+ background-image: url(./background.png);
  background-size: cover; 
  min-height:100vh;
  height:auto;
@@ -393,7 +393,7 @@ button{
  display: flex;
  justify-content: center;
  align-items: center; 
- background-image: url(../image/adobe2.jpg);
+ background-image: url(./adobe2.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  background-clip: text;
@@ -408,7 +408,7 @@ button{
  display: flex;
  justify-content: center;
  align-items: center; 
-background-image: url(../image/adobe2.jpg);
+background-image: url(./adobe2.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  background-clip: text;   
